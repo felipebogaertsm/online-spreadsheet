@@ -1,3 +1,5 @@
+"use client";
+
 import { JSSProvider } from "@/contexts/JSSContext";
 import Grid from "./Grid";
 
