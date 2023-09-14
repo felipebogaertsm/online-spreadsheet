@@ -9,6 +9,9 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@jspreadsheet/formula-pro": "^3.2.2",
+    "@jspreadsheet/parser": "^4.0.4",
+    "@jspreadsheet/react": "^10.1.1",
     "@types/node": "20.6.0",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
