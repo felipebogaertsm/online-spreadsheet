@@ -1,0 +1,22 @@
+version: "3.9"
+
+services:
+  jss-frontend:
+    build:
+      context: ./app/
+      dockerfile: ./Dockerfile.dev
+    container_name: jss-frontend
+    volumes:
+      - ./app/:/app/
+      - jss-node_modules:/app/node_modules
+      - jss-next:/app/.next
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+    entrypoint: |
+      yarn dev
+
+volumes:
+  jss-node_modules:
+  jss-next:
