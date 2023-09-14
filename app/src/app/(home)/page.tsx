@@ -1,7 +1,10 @@
 "use client";
 
-import { JSSProvider } from "@/contexts/JSSContext";
+// Components:
 import Grid from "./Grid";
+
+// Contexts:
+import { JSSProvider } from "@/contexts/JSSContext";
 
 export default function Home() {
   return (
